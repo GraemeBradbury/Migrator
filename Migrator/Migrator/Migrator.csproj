@@ -47,10 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\BudgetPeriod.cs" />
-    <Compile Include="Migrations\DataForSimpleCostModel.cs" />
-    <Compile Include="Migrations\SimpleCostModel.cs" />
-    <Compile Include="Migrations\TestPeriodData.cs" />
+    <Compile Include="Migrations\3_BudgetPeriod.cs" />
+    <Compile Include="Migrations\5_CostAllocations.cs" />
+    <Compile Include="Migrations\2_DataForSimpleCostModel.cs" />
+    <Compile Include="Migrations\1_SimpleCostModel.cs" />
+    <Compile Include="Migrations\4_TestPeriodData.cs" />
+    <Compile Include="Migrations\6_CostAllocationData.cs" />
+    <Compile Include="Migrations\7_CostModelHierarchy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Runner.cs" />
